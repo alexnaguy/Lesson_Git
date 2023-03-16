@@ -1,6 +1,8 @@
 
 def execute_application():
-    pass
+
+def print_file_extension():
+
 
 
 
