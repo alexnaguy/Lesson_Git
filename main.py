@@ -1,5 +1,5 @@
 
-def execute_application():
+
 
 def print_file_extension(file):
     if "." not in file:
@@ -9,6 +9,11 @@ def print_file_extension(file):
         return file_ext
     except Exception as e:
         print(e)
+
+def execute_application():
+    file_name = "repository.txt"
+    print(f"Расширени файла:")
+    print(print_file_extension(file_name))
 
 
 
