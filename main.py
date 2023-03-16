@@ -12,7 +12,7 @@ def print_file_extension(file):
 
 def execute_application():
     file_name = "repository.txt"
-    print(f"Расширени файла:")
+    print(f"Расширение файла имеет формат:")
     print(print_file_extension(file_name))
 
 
